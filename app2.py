@@ -9,7 +9,7 @@ st.title('🍼 Plastic Bottle Anomaly Detection')
 @st.cache_resource
 def load_model():
     # Load the pre-trained model (cached for faster reloads)
-    model = tf.keras.models.load_model('model.h5')
+    model = tf.keras.models.load_model('https://github.com/Mihir03102002/Teachable-Machines-/blob/main/tm-my-image-model%20(1).zip')
     return model
 
 model = load_model()
